@@ -1,0 +1,155 @@
+*{
+    padding:0px;
+    margin: 0px;
+} 
+body{
+    background-color: rgb(223, 217, 217);
+}
+/* area cabecalho*/
+
+#area-cabecalho{
+    background-color: orange;
+    padding:30px;
+    text-align: center;
+}
+#area-titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color:rgb(77, 75, 75);
+}
+#area-navegacao{
+    margin:15px 0px 0px 0px;
+}
+
+/*formatação de links*/
+a{
+    font-size: 18px;
+    padding:0px 10px 0px 10px;
+    text-decoration: none;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
+/*links cabecalho*/
+#area-cabecalho a{
+    font-size: 18px;
+    padding:0px 10px 0px 10px;
+    text-decoration: none;
+}
+#area-cabecalho a:link{
+    color:white;
+}
+#area-cabecalho a:visited{
+    color:white;
+}
+#area-cabecalho a:hover{
+    text-decoration: none;
+    color:orange;
+    background-color: white;
+    padding:10px;
+}
+#area-cabecalho a:active{
+    text-decoration: none;
+    color:white;
+    background-color: orange;
+    padding:10px;
+}
+/*links postagens*/
+#area-postagens a:hover{
+    color:orange;
+    padding:10px;
+    text-decoration: underline;
+}
+#area-postagens a:active{
+    color:black;
+    padding:10px;
+    text-decoration: none;
+}
+#area-postagens a{
+    color:orange;
+}
+#area-postagens a:link, a:visited{
+    color:orange;
+}
+
+/*usando o span*/
+.branco{
+    color:white;
+}
+/*area principal, postagens, lateral e rodape*/
+#area-principal{
+    width:920px;
+    margin:0 auto;
+}
+#area-postagens{
+    width:600px;
+    float:left;
+    margin:20px 0px;
+    padding:0px 20px ;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#area-rodape{
+    background-color: rgb(184, 179, 179);
+    clear:both;/*empurra o meu conteudo para baixo de elementos floats seja da direita ou esquerda*/
+    font-weight: 999;
+    padding:20px;
+    text-align: center;
+    font-size: 20px;
+
+}
+#area-postagens p{
+    padding-bottom: 20px;
+    font-size: 0.8em;
+}
+#area-postagens h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:orange;
+}
+/*conteudo lateral*/
+#area-lateral{
+    width:240px;
+    background-color: white;
+    float: right;/*elemento flutuante para a direita*/
+    margin:20px 0px 0px 40px;
+}
+#conteudo-lateral{
+    padding:10px;
+}
+#postagem-lateral{
+    background-color: gray;
+    color:black;
+    padding:10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#area-lateral p{
+    width:210px;
+    padding-bottom: 5px;
+}
+/*links area lateral*/
+#area-lateral a:link, a:visited{
+    color:orange;
+    font-size: 1.0em;
+    padding-bottom:10px;
+}
+#area-lateral a:hover{
+    color:orange;
+    text-decoration: underline;
+}
+#area-lateral a:active{
+    color:black;
+    text-decoration: none;
+}
+p{
+    font-family: arial;
+    font-size: 0.8em;
+    text-align: justify;
+    width:590px
+}
